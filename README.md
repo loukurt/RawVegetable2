@@ -16,6 +16,23 @@ A computer with a minimum of 16 GB RAM and 4 computing cores is recommended. How
 <p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/91b8c8b5-6210-48f2-ba66-b69d8c0ba99e" width="650"><br/>
 <p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/8b0012c6-c8a8-4ac3-8fb5-f9d19b59a25c" width="650"><br/>
 
+## Loading Identification Files
+- For some of the modules, it may be necessary to load an identification file (either of linear or cross-linked peptides). To do this, go to the **File** menu, and click on the **Load ID Files** button.
+
+<p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/3af3f545-094b-48e3-b54b-b4a93493965e" width="650"><br/>
+	
+- RawVegetable 2.0 only accepts identification files in the form of tables in the *.csv or *.txt formats.
+- Once the file has been selected, the software will ask for the column splitter (whether it is a comma or tab-separated) and whether the file contains a header row.
+
+<p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/a8c643bd-ea6e-42fd-b3af-415ec3d0e9cf" width="650"><br/>
+
+- Once this is informed, click the button **Ok**.
+- A screen asking you to provide information about the columns will appear. There, it is possible to create a new template (by clicking the button **Add New**) and fill all information prompted, such as which columns are the sequence, m/z, charge, and the other parameters. Note that not all information is necessary for all analyses (and for example, if the m/z and charge are provided, the MH is not necessary and so on), but try to fill as much as possible.
+- Once the new template is complete, it is possible to save this library, so it will not be necessary to fill this information again.
+- Before closing the window, select your template on the right side of the screen so your ID file can be correctly read.
+
+<p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/3a2654b4-5b80-4802-871f-bfb69a95d4ce" width="650"><br/>
+
 ## Navigating Open Files
 
 - The user has full control of which files should be displayed in the screen and used for specific modules by opening the **Open Files** menu once the files have loaded and (un)checking the specific files/plots.
@@ -127,9 +144,19 @@ A computer with a minimum of 16 GB RAM and 4 computing cores is recommended. How
 
 <p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/c215df3b-fbb6-4a68-853f-88ff2f53f7d2" width="650"><br/>
 
+## Diagnostic Peak Finder
 
+- To run this module, after a spectra file has been loaded, go to the **Analysis** menu.
+- There are two options for the Diagnostic Peak Finder:
+	- To run on any MS/MS spectra, select **Spectra with min. Xrea** and choose the minimum score for the search (if you want to run this on every scan, select a minimum of zero). Since this is an extensive search, running in this mode may take a while.
+	- To try to identify diagnostic peaks only in scans that have been assigned an identification (either PSMs or CSMs) first load an identification file, then select the option **Spectra with ID only**.
+- To run the search, click on **Run Diagnostic Peak Finder**.
 
+<p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/a8a23249-7cc5-4a13-b6fe-b3cd05dd3c1e" width="650"><br/>
 
+- Once the search is finished, the results can be seen on the **Diagnostic Peak Finder** tab, in the form of a table detailing the m/z of the peak found, the number of scans it was found in as well as the percentage it represents in the whole run, and the scans’ numbers.
+
+<p align="center"><img src="https://github.com/loukurt/RawVegetable2/assets/63426567/e31b2282-b772-4c0f-9ce9-72f16306b904" width="650"><br/>
 
 
 
