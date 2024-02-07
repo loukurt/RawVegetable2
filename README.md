@@ -7,7 +7,7 @@ A computer with a minimum of 16 GB RAM and 4 computing cores is recommended. How
 ## Software
 - Windows 10 (64 bits) or later.
 - The .NET Core 6 or later, which can be downloaded at https://dotnet.microsoft.com/en-us/download/dotnet/6.0
-- The RawVegetable software, available for download at https://github.com/diogobor/RawVegetable2/releases
+- The RawVegetable software, available for download at https://github.com/loukurt/RawVegetable2/releases
 
 # Tutorial
 ## Loading Spectra Files
