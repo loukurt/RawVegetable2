@@ -2,7 +2,7 @@
 A quality control software with specialized modules for XLMS experiments. RawVegetable 1.0 can be found at http://patternlabforproteomics.org/rawvegetable/
 
 _<b>Please cite our paper:</b>_<br/>
-_Kurt, LU, et al., [“RawVegetable 2.0: Refining XL-MS Data Acquisition through Enhanced Quality Control”]([https://doi.org/10.1101/2023.11.30.569448](https://doi.org/10.1021/acs.jproteome.3c00791)), Journal of Proteome Research, 2024._
+_Kurt, LU, et al., [“RawVegetable 2.0: Refining XL-MS Data Acquisition through Enhanced Quality Control”](https://doi.org/10.1021/acs.jproteome.3c00791), Journal of Proteome Research, 2024._
 
 # Equipment
 ## Hardware
